@@ -1,21 +1,21 @@
 # order-management-system
  <a href="https://pokedexbysadika.netlify.app/">Visit here</a>
-The pokemon index project using PokeAPI is a web based application that allows users to browse through the whole pokemon list along with their details such as pokemon type.
+The Order Management System is a  web application that streamlines business order processing. Built using HTML, CSS, EJS, Express, and MongoDB, this system employs the Model-View-Controller (MVC) architecture to deliver an organized and efficient platform for order management.
 
 <img src="./demo.gif">
 
 # How it's made:
-Tech used: HTML, CSS, JavaScript, PokeAPI
+Tech used: HTML, CSS, EJS, JavaScript, Node, Express, MongoDB
 
-First, I spent some time researching the 90's Gameboy aesthetic to get a sense of the color palette, typography, and overall look and feel. I wanted to make sure that the design of my project was authentic and captured the essence of the Gameboy era.
-Once I had a good idea of what I wanted to achieve, I started building the layout using HTML and CSS.
+HTML & CSS: The application's core structure is built using HTML and CSS, ensuring a responsive and visually pleasing interface.
 
-After building the layout, I added event listeners to handle user click. For example, I used buttons to move to the next list of pokemon.
+EJS (Embedded JavaScript): EJS templates combined with Express power dynamic content rendering on the server side, facilitating order detail display.
 
-Next, I worked with an API to retrieve data and update the aplication state. This involved making requests to the API and processing the response data to update the display board.
-Throughout the development process, I tested my code frequently to ensure that everything was working as expected. I used tools like Chrome DevTools to debug any issues and make sure that the API was working properly.
+Express (Controller): Express handles backend logic using the MVC controller, managing routes, middleware, and data interactions.
 
-Finally, I deployed my project to a web server so that others could use the pokedex web application and retrieve pokemon information. I used Netlify to host my application and ensure that it was available to users 24/7.
+MongoDB (Model): MongoDB serves as the database system, storing and managing order data in accordance with the MVC model.
+
+Views: EJS templates represent the views, presenting data to users and facilitating dynamic content rendering.
 
 # Lesson learned:
-Building this project was a challenging but rewarding experience. I learned a lot about web development, APIs, and I'm excited to continue exploring these areas in future projects.
+Reflection on the Order Management System project, developed within the MVC architecture, has been enlightening. Navigating the intricacies of separating concerns and optimizing data handling imparted profound insights. Through this endeavor, I gained a firsthand appreciation for structured development's pivotal role. 
